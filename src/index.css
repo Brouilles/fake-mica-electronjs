@@ -1,0 +1,32 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background: #202020;
+  color: #fff;
+}
+
+#mica-background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  /* Mica effect */
+  filter: blur(50px);
+  opacity: 0.2;
+}
+
+.titlebar {
+  height: 30px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
